@@ -78,7 +78,8 @@ body {
     color: var(--green-color);
 }
 
-.login {;
+.login {
+    cursor: pointer;
     color: var(--dark-green-color);
     font-weight: bolder;
 }
