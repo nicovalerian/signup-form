@@ -120,6 +120,10 @@ body {
     border-radius: 5px;
 }
 
+input.error {
+    border-color: red;
+}
+
 .create-button {
     background-color: rgba(0, 0, 0, 0);
     color: var(--dark-green-color);
