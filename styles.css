@@ -78,7 +78,7 @@ body {
     color: var(--green-color);
 }
 
-.login {
+.login {;
     color: var(--dark-green-color);
     font-weight: bolder;
 }
@@ -120,7 +120,7 @@ body {
     border-radius: 5px;
 }
 
-input.error {
+input.error { /* this class will be added from main.js during validation */
     border-color: red;
 }
 
