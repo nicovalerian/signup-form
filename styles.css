@@ -139,3 +139,11 @@ input.error {
     color: var(--light-green-color);
     transition: 0.3s;
 }
+
+.create-button:focus {
+    background: var(--green-color);
+    -webkit-box-shadow: inset 0px 0px 5px var(--dark-green-color);
+    -moz-box-shadow: inset 0px 0px 5px var(--dark-green-color);
+    box-shadow: inset 0px 0px 5px var(--dark-green-color);
+    outline: none;
+}

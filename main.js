@@ -5,7 +5,6 @@ inputs.forEach((input) => {
     "invalid",
     event => {
       input.classList.add("error");
-      console.log("invalid " + input.name);
     },
     false
   );
