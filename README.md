@@ -1,6 +1,8 @@
 # Sign-up Form
 Baisc sign-up form project using only vanilla (pure) HTML, CSS and JS.
 
+You can check live website (deployment) here: https://nicovalerian.github.io/signup-form/
+
 This project is for [TheOdinProject's Sign Up Form Project](https://www.theodinproject.com/lessons/node-path-intermediate-html-and-css-sign-up-form).
 
 ## Built with
