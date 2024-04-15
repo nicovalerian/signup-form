@@ -149,3 +149,21 @@ input.error { /* this class will be added from main.js during validation */
     box-shadow: inset 0px 0px 5px var(--dark-green-color);
     outline: none;
 }
+
+@media screen and (max-width: 800px) {
+    .container {
+        flex-direction: column;
+        height: auto;
+    }
+    .left-side, .right-side {
+        width: 100%;
+    }
+
+    .right-side {
+        margin: 0;
+    }
+
+    .logo-wrapper {
+        top: 0;
+    }
+}
