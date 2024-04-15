@@ -12,7 +12,6 @@ body {
     --dark-green-color: #344E41;
     --green-color: #436850;
     --light-green-color: #ECF1E6;
-    --light-gray-color: #f5f5f5;
 
     margin: 0;
     height: 100vh;
@@ -22,6 +21,7 @@ body {
     display: flex;
     flex-direction: row;
     height: 100vh;
+    background-color: var(--light-green-color);
 }
 
 .left-side {
@@ -33,12 +33,6 @@ body {
     flex-direction: column;
     align-items: center;
     width: 40vw;
-}
-
-.logo-wrapper-background {
-    background-color: var(--dark-gray-color);
-    width: 100%;
-    height: 5rem;
 }
 
 .logo-wrapper {
@@ -64,8 +58,31 @@ body {
     font-weight: bold;
 }
 
-
 .right-side {
     display: flex;
     width: 60vw;
+    flex-direction: column;
+    gap: 5vh;
+    padding: 5vh;
+    margin-top: 10vh;
+}
+
+.dummy-text-top {
+    color: var(--green-color);
+    font-size: 1.25rem;
+    font-weight: 500;
+}
+
+.login-text {
+    font-size: 1.25rem;
+    color: var(--green-color);
+}
+
+.login {
+    color: var(--dark-green-color);
+    font-weight: bolder;
+}
+
+.login:hover {
+    text-decoration: underline;
 }
