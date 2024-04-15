@@ -45,7 +45,7 @@ body {
     justify-content: center;
     align-items: center;
     gap: 1vw;
-    background-color: rgba(236, 241, 230, 0.7);
+    background-color: rgba(236, 241, 230, 0.6);
 }
 
 .logo-image {
@@ -64,7 +64,7 @@ body {
     flex-direction: column;
     gap: 5vh;
     padding: 5vh 10vh 5vh 5vh;
-    margin-top: 10vh;
+    margin-top: 5vh;
 }
 
 .dummy-text-top {
@@ -85,4 +85,53 @@ body {
 
 .login:hover {
     text-decoration: underline;
+}
+
+.form-title {
+    color: var(--green-color);
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 2vh;
+}
+
+.inputs {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 2vw;
+    margin-bottom: 4vh;
+}
+
+.input {
+    display: flex;
+    flex-direction: column;
+    gap: 1vh;
+}
+
+.input label {
+    color: var(--green-color);
+    font-size: 1rem;
+    font-weight: normal;
+}
+
+.input input {
+    padding: 1.5vh 12vh 1.5vh 1.5vh;
+    border: 1px solid var(--green-color);
+    border-radius: 5px;
+}
+
+.create-button {
+    background-color: rgba(0, 0, 0, 0);
+    color: var(--dark-green-color);
+    font-weight: bold;
+    font-size: 1.25rem;
+    border: 2px solid var(--dark-green-color);
+    border-radius: 5px;
+    padding: 1.5vh 9vh;
+}
+
+.create-button:hover {
+    background-color: var(--dark-green-color);
+    color: var(--light-green-color);
+    transition: 0.3s;
 }
