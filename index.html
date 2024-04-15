@@ -29,7 +29,39 @@
           <br /><i>Sign up</i> now to get started.<br /><br />You
           <i>know</i> you want to.
         </div>
-        <form action="#"></form>
+        <form action="#">
+            <div class="form-title">Let's do this!</div>
+            <div class="input">
+                <label for="first-name">FIRST NAME</label>
+                <input type="text" name="first-name" id="first-name" required>
+                <div class="input-invalid"></div>
+            </div>
+            <div class="input">
+                <label for="last-name">LAST NAME</label>
+                <input type="text" name="last-name" id="last-name" required>
+                <div class="input-invalid"></div>
+            </div>
+            <div class="input">
+                <label for="email">EMAIL</label>
+                <input type="email" name="email" id="email" required>
+                <div class="input-invalid"></div>
+            </div>
+            <div class="input">
+                <label for="phone-number">PHONE NUMBER</label>
+                <input type="text" name="phone-number" id="phone-number" minlength="9" maxlength="15">
+                <div class="input-invalid"></div>
+            </div>
+            <div class="input">
+                <label for="password">PASSWORD</label>
+                <input type="password" name="password" id="password" required>
+                <div class="input-invalid"></div>
+            </div>
+            <div class="input">
+                <label for="password-confirm">CONFIRM PASSWORD</label>
+                <input type="password" name="password-confirm" id="password-confirm" required>
+                <div class="input-invalid"></div>
+            </div>
+        </form>
         <div class="login-text">
           Already have an account? <span class="login">Log in</span>
         </div>
